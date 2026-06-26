@@ -64,7 +64,6 @@ data-science-project-with-deployment/
 ├── .github/
 │   └── workflows/
 ├── config/
-├── notebook/
 ├── research/
 ├── src/
 │   └── datascience/
@@ -74,15 +73,15 @@ data-science-project-with-deployment/
 │       ├── entity/
 │       ├── pipeline/
 │       ├── utils/
-│       ├── logger.py
-│       └── exception.py
 ├── templates/
+├── .gitignore
 ├── app.py
+├── LICENSE
 ├── main.py
 ├── params.yaml
 ├── schema.yaml
 ├── requirements.txt
-├── setup.py
+├── template.py
 └── README.md
 ```
 
@@ -199,7 +198,7 @@ http://localhost:5000
 **DevOps • Cloud • Kubernetes • MLOps Engineer**
 
 * **GitHub:** https://github.com/momna-shahid17
-* **LinkedIn:** https://www.linkedin.com/in/momna-shahid17/
+* **LinkedIn:** https://www.linkedin.com/in/momna-shahid/
 
 ---
 
