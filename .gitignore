@@ -1,4 +1,3 @@
 venv/
 logs/
 artifacts/
-"src\datascience\__pycache__"
