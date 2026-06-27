@@ -1,14 +1,14 @@
-# 🚀 End-to-End Data Science Project with Deployment
+# 🚀 End-to-End Data Science Pipeline
 
-A production-oriented end-to-end Machine Learning project that demonstrates the complete lifecycle of a Data Science application—from data ingestion and preprocessing to model training, evaluation, and deployment using Flask. The project follows a modular architecture to improve scalability, maintainability, and code reusability.
+A production-oriented end-to-end Data Science pipeline that demonstrates the complete machine learning lifecycle—from data ingestion and validation to model training, evaluation, experiment tracking with MLflow, and deployment using Flask. The project follows a modular architecture to ensure scalability, maintainability, and code reusability.
 
 ---
 
 # 📖 Project Overview
 
-This project implements a complete machine learning pipeline by separating each stage of the workflow into independent modules. It automates the process of data ingestion, validation, transformation, model training, evaluation, and prediction while providing a Flask-based web interface for serving predictions.
+This project implements an end-to-end data science pipeline that automates data ingestion, validation, transformation, model training, evaluation, experiment tracking, and prediction. The application is built using a modular architecture and deployed through a Flask web interface, making it scalable, maintainable, and production-oriented.
 
-The project is designed following software engineering best practices, making it easy to extend, maintain, and deploy.
+The project follows software engineering and MLOps best practices, enabling reproducible machine learning workflows and simplifying future enhancements and deployment.
 
 ---
 
@@ -20,6 +20,7 @@ The project is designed following software engineering best practices, making it
 * Data Transformation Pipeline
 * Feature Engineering & Data Preprocessing
 * Model Training
+* MLflow Experiment Tracking
 * Model Evaluation
 * Prediction Pipeline
 * Flask Web Application
@@ -46,6 +47,9 @@ Data Transformation
 Model Training
     │
     ▼
+MLflow Experiment Tracking
+    │
+    ▼
 Model Evaluation
     │
     ▼
@@ -60,7 +64,7 @@ Flask Web Application
 # 📁 Project Structure
 
 ```text
-data-science-project-with-deployment/
+end-to-end-data-science-pipeline/
 ├── .github/
 │   └── workflows/
 ├── config/
@@ -89,53 +93,53 @@ data-science-project-with-deployment/
 
 # 🛠️ Tech Stack
 
-| Category             | Technologies        |
-| -------------------- | ------------------- |
-| Programming Language | Python              |
-| Machine Learning     | Scikit-learn        |
-| Data Processing      | Pandas, NumPy       |
-| Data Visualization   | Matplotlib, Seaborn |
-| Web Framework        | Flask               |
-| Configuration        | YAML                |
-| Version Control      | Git, GitHub         |
+| Category             | Technologies         |
+| -------------------- | -------------------- |
+| Programming Language | Python               |
+| Machine Learning     | Scikit-learn, MLflow |
+| Data Processing      | Pandas, NumPy        |
+| Data Visualization   | Matplotlib, Seaborn  |
+| Web Framework        | Flask                |
+| Configuration        | YAML                 |
+| Version Control      | Git, GitHub          |
 
 ---
 
 # ⚙️ Installation
 
-Clone the repository
+### Clone the repository
 
 ```bash
-git clone https://github.com/momna-shahid17/data-science-project-with-deployment.git
+git clone https://github.com/momna-shahid17/end-to-end-data-science-pipeline.git
 ```
 
-Navigate to the project directory
+### Navigate to the project directory
 
 ```bash
-cd data-science-project-with-deployment
+cd end-to-end-data-science-pipeline
 ```
 
-Create a virtual environment
+### Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-Activate the virtual environment
+### Activate the virtual environment
 
-### Windows
+**Windows**
 
 ```bash
 venv\Scripts\activate
 ```
 
-### Linux / macOS
+**Linux / macOS**
 
 ```bash
 source venv/bin/activate
 ```
 
-Install the required dependencies
+### Install the dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -145,19 +149,19 @@ pip install -r requirements.txt
 
 # ▶️ Run the Project
 
-Execute the training pipeline
+### Execute the training pipeline
 
 ```bash
 python main.py
 ```
 
-Start the Flask application
+### Start the Flask application
 
 ```bash
 python app.py
 ```
 
-Open your browser and visit:
+Open your browser:
 
 ```text
 http://localhost:5000
@@ -171,6 +175,7 @@ http://localhost:5000
 * Pandas
 * NumPy
 * Scikit-learn
+* MLflow
 * Flask
 * Matplotlib
 * Seaborn
@@ -184,10 +189,11 @@ http://localhost:5000
 
 * Hyperparameter Tuning
 * Model Performance Optimization
-* REST API Enhancements
-* Automated Testing
+* Docker Containerization
+* Kubernetes Deployment
+* CI/CD Automation
+* Model Monitoring
 * Cloud Deployment
-* CI/CD Integration
 
 ---
 
@@ -197,10 +203,12 @@ http://localhost:5000
 
 **DevOps • Cloud • Kubernetes • MLOps Engineer**
 
-* **GitHub:** https://github.com/momna-shahid17
-* **LinkedIn:** https://www.linkedin.com/in/momna-shahid/
+**GitHub:** https://github.com/momna-shahid17
+
+**LinkedIn:** https://www.linkedin.com/in/momna-shahid/
 
 ---
 
 # 📄 License
-This project is licensed under the MIT License.
+
+This project is licensed under the **MIT License**.
